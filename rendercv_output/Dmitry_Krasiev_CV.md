@@ -1,11 +1,10 @@
 # Dmitry Krasiev's CV
 
-- Phone: +90 541 999 99 99
-- Email: [youremail@yourdomain.com](mailto:youremail@yourdomain.com)
-- Location: Your Location
-- Website: [yourwebsite.com](https://yourwebsite.com/)
-- LinkedIn: [yourusername](https://linkedin.com/in/yourusername)
-- GitHub: [yourusername](https://github.com/yourusername)
+- Phone: +7 901 943 24 31
+- Email: [dmitrykrasiev@gmail.com](mailto:dmitrykrasiev@gmail.com)
+- Location: Russia, Samara
+- LinkedIn: [dkrasiev](https://linkedin.com/in/dkrasiev)
+- GitHub: [dkrasiev](https://github.com/dkrasiev)
 
 
 # Summary

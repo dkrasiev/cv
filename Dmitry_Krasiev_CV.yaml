@@ -1,14 +1,18 @@
+# yaml-language-server: $schema=https://github.com/sinaatalay/rendercv/blob/main/schema.json?raw=true
 cv:
   name: Dmitry Krasiev
-  location: Your Location
-  email: youremail@yourdomain.com
-  phone: tel:+90-541-999-99-99
-  website: https://yourwebsite.com/
+  location: Russia, Samara
+  email: dmitrykrasiev@gmail.com
+  phone: tel:+7-901-943-24-31
+  # website: https://dkrasiev.com/
   social_networks:
     - network: LinkedIn
-      username: yourusername
+      username: dkrasiev
     - network: GitHub
-      username: yourusername
+      username: dkrasiev
+    # Telegram is not supported by rendercv
+    # - network: Telegram
+    #   username: dkrasiev
   sections:
     summary:
       - This is an example resume to showcase the capabilities of the open-source
@@ -116,38 +120,38 @@ cv:
       - label: Software
         details: Visual Studio, Microsoft SQL Server, Eclipse, XCode, Interface Builder
 design:
-  theme: classic
-  font_size: 10pt
-  page_size: letterpaper
-  color: '#004f90'
-  disable_external_link_icons: false
-  disable_page_numbering: false
-  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  disable_last_updated_date: false
-  last_updated_date_style: Last updated in TODAY
-  header_font_size: 30 pt
-  text_alignment: justified
-  margins:
-    page:
-      top: 2 cm
-      bottom: 2 cm
-      left: 2 cm
-      right: 2 cm
-    section_title:
-      top: 0.3 cm
-      bottom: 0.2 cm
-    entry_area:
-      left_and_right: 0.2 cm
-      vertical_between: 0.2 cm
-      date_and_location_width: 4.5 cm
-      education_degree_width: 1 cm
-    highlights_area:
-      top: 0.10 cm
-      left: 0.4 cm
-      vertical_between_bullet_points: 0.10 cm
-    header:
-      vertical_between_name_and_connections: 0.3 cm
-      bottom: 0.3 cm
-      horizontal_between_connections: 0.5 cm
-  show_timespan_in:
-    - Experience
+  theme: moderncv
+  # font_size: 10pt
+  # page_size: letterpaper
+  # color: '#004f90'
+  # disable_external_link_icons: false
+  # disable_page_numbering: false
+  # page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  # disable_last_updated_date: false
+  # last_updated_date_style: Last updated in TODAY
+  # header_font_size: 30 pt
+  # text_alignment: justified
+  # margins:
+  #   page:
+  #     top: 2 cm
+  #     bottom: 2 cm
+  #     left: 2 cm
+  #     right: 2 cm
+  #   section_title:
+  #     top: 0.3 cm
+  #     bottom: 0.2 cm
+  #   entry_area:
+  #     left_and_right: 0.2 cm
+  #     vertical_between: 0.2 cm
+  #     date_and_location_width: 4.5 cm
+  #     education_degree_width: 1 cm
+  #   highlights_area:
+  #     top: 0.10 cm
+  #     left: 0.4 cm
+  #     vertical_between_bullet_points: 0.10 cm
+  #   header:
+  #     vertical_between_name_and_connections: 0.3 cm
+  #     bottom: 0.3 cm
+  #     horizontal_between_connections: 0.5 cm
+  # show_timespan_in:
+  #   - Experience
