@@ -23,15 +23,15 @@ jobs:
         with:
           name: cv-output
           path: rendercv_output
-  release:
-    runs-on: ubuntu-latest
-    needs: render
-    steps:
-      - name: Download artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: cv-output
-      - name: GitHub Release
-        uses: softprops/action-gh-release@v2.0.4
-        with:
-          files: rendercv_output
+  # release:
+  #   runs-on: ubuntu-latest
+  #   needs: render
+  #   steps:
+  #     - name: Download artifact
+  #       uses: actions/download-artifact@v4
+  #       with:
+  #         name: cv-output
+  #     - name: GitHub Release
+  #       uses: softprops/action-gh-release@v2.0.4
+  #       with:
+  #         files: rendercv_output
